@@ -1,7 +1,5 @@
-# P2: System Setup/Portfolio 09-18-14
+## Project P2: ##
 
 TBD
-
-
 
 
