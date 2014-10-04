@@ -1,6 +1,3 @@
-<!-- CSCIE-15 Dynamic Web Applications. Fall, 2014
-       Project P2 - The XKCD Password Generator -->
-
 <?php
 //phpinfo();
 
@@ -22,6 +19,9 @@ ini_set('display_errors', 0); # Display errors on page (instead of a log file)
 
 <body>
 
+<!-- CSCIE-15 Dynamic Web Applications. Fall, 2014
+       Project P2 - The XKCD Password Generator -->
+
 <h1>Rick's Fabulous (Well, almost fabulous) XKCD Password Generator</h1>
 
 
@@ -38,13 +38,13 @@ because it can have more "entropy" than other common paswword schemes.</h3>
 <br>
 
 <form method='GET' action='index.php'>
-    <label name="'numwords">Enter the Number of Words (Min 1, Max 20)</label>
+    Enter the Number of Words (Min 1, Max 20)
     <input type='text' id='numwords' name='numWords' maxlength='10'/><br /><br />
 
-    <label name="'passNumber">Include numbers in the password ?</label>
+    Include numbers in the password ?
     <input type='checkbox' name='passNumber' value='checkbox'/><br /><br />
 
-    <label name="'passSymbol">Include a special symbol at the end of the password ?</label>
+    Include a special symbol at the end of the password ?
     <input type='checkbox' name='passSymbol' value='checkbox'/><br /><br />
 
     <input type='submit' value='Generate Password!'><br>
